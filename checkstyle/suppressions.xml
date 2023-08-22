@@ -22,7 +22,7 @@
     <!-- Legacy suppressions -->
     <!-- TODO: must be fixed -->
     <suppress checks="CyclomaticComplexity"
-              files="(BufferedRecords|DataConverter|DatabaseDialect|FieldsMetadata|HanaDialect|JdbcSourceTask|JdbcSourceConnector|MySqlDatabaseDialect|OracleDatabaseDialect|PostgreSqlDatabaseDialect|PreparedStatementBinder|SqlServerDatabaseDialect|SqliteDatabaseDialect|TimestampIncrementingTableQuerier|VerticaDatabaseDialect|SapHanaDatabaseDialect|TableId|ColumnDefinition|TableMonitorThread).java"/>
+              files="(BufferedRecords|DataConverter|DatabaseDialect|FieldsMetadata|HanaDialect|JdbcSourceTask|JdbcSourceConnector|MySqlDatabaseDialect|OracleDatabaseDialect|PostgreSqlDatabaseDialect|RedshiftDatabaseDialect|PreparedStatementBinder|SqlServerDatabaseDialect|SqliteDatabaseDialect|TimestampIncrementingTableQuerier|VerticaDatabaseDialect|SapHanaDatabaseDialect|TableId|ColumnDefinition|TableMonitorThread).java"/>
 
     <suppress checks="ClassDataAbstractionCoupling"
               files="(DbDialect|JdbcSourceTask|GenericDatabaseDialect).java"/>

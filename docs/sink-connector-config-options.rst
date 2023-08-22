@@ -38,7 +38,7 @@ Database
 
   * Type: string
   * Default: ""
-  * Valid Values: [, Db2DatabaseDialect, MySqlDatabaseDialect, SybaseDatabaseDialect, GenericDatabaseDialect, OracleDatabaseDialect, SqlServerDatabaseDialect, PostgreSqlDatabaseDialect, SqliteDatabaseDialect, DerbyDatabaseDialect, SapHanaDatabaseDialect, VerticaDatabaseDialect]
+  * Valid Values: [, Db2DatabaseDialect, MySqlDatabaseDialect, SybaseDatabaseDialect, GenericDatabaseDialect, OracleDatabaseDialect, SqlServerDatabaseDialect, PostgreSqlDatabaseDialect, SqliteDatabaseDialect, DerbyDatabaseDialect, SapHanaDatabaseDialect, VerticaDatabaseDialect, RedshiftDatabaseDialect]
   * Importance: low
 
 ``sql.quote.identifiers``

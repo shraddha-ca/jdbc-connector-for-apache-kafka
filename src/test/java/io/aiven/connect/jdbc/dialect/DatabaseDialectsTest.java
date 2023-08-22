@@ -47,6 +47,7 @@ public class DatabaseDialectsTest {
         assertContainsInstanceOf(providers, SapHanaDatabaseDialect.Provider.class);
         assertContainsInstanceOf(providers, VerticaDatabaseDialect.Provider.class);
         assertContainsInstanceOf(providers, MockDatabaseDialect.Provider.class);
+        assertContainsInstanceOf(providers, RedshiftDatabaseDialect.Provider.class);
     }
 
     @Test
@@ -73,6 +74,11 @@ public class DatabaseDialectsTest {
     @Test
     public void shouldFindPostgreSqlDialect() {
         assertDialect(PostgreSqlDatabaseDialect.class, "jdbc:postgresql://localhost/test");
+    }
+
+    @Test
+    public void shouldFindRedshiftDatabaseDialect() {
+        assertDialect(RedshiftDatabaseDialect.class, "jdbc:redshift://localhost/test");
     }
 
     @Test

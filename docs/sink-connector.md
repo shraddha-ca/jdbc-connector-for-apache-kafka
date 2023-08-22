@@ -81,7 +81,7 @@ This mode is used by default. To enable it explicitly, set
 
 In this mode, the connector executes an `INSERT` SQL query with multiple
 values (effectively inserting multiple row/records per query). 
-Supported in `SqliteDatabaseDialect` and `PostgreSqlDatabaseDialect`.
+Supported in `SqliteDatabaseDialect`, `PostgreSqlDatabaseDialect` and `RedshiftDatabaseDialect`.
 
 To use this mode, set `insert.mode=multi`
 

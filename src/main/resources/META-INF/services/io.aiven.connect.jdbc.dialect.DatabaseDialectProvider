@@ -9,3 +9,4 @@ io.aiven.connect.jdbc.dialect.SqlServerDatabaseDialect$Provider
 io.aiven.connect.jdbc.dialect.SapHanaDatabaseDialect$Provider
 io.aiven.connect.jdbc.dialect.SybaseDatabaseDialect$Provider
 io.aiven.connect.jdbc.dialect.VerticaDatabaseDialect$Provider
+io.aiven.connect.jdbc.dialect.RedshiftDatabaseDialect$Provider
